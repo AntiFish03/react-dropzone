@@ -8,7 +8,7 @@ module.exports = {
   devtool: 'source-map',
   output: {
     path: __dirname + '/dist/',
-    filename: 'index.js',
+    filename: 'dropzone.js',
     libraryTarget: 'umd',
     library: 'Dropzone'
   },
@@ -28,7 +28,7 @@ module.exports = {
     extensions: ['', '.js', '.json']
   },
   externals: {
-    react: 'react'
+    react: 'React'
   },
   plugins: []
 };
